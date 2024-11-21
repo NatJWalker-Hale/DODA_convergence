@@ -1,6 +1,6 @@
 # DODA_convergence
 
-Sequences, trees, and expression data from Walker-Hale, Guerrero-Rubio et al. (_submitted_).
+Sequences, trees, and expression data from Walker-Hale, Guerrero-Rubio & Brockington (_submitted_).
 
 `alignments_and_trees` has the necessary files to reproduce the ancestral sequence reconstruction and convergence results.
 

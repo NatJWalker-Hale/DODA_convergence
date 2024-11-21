@@ -8,7 +8,7 @@ Sequences, trees, and expression data from Walker-Hale, Guerrero-Rubio & Brockin
 
 - **alignments_and_trees**
 
-  - `Caryophyllales.tre` - the Caryophyllales species tree used for reconciliation. Branch lengths are arbitrary.
+  - `Caryophyllales.tre` - the Caryophyllales species topology used for reconciliation.
 
   - `DODA_full.cds.fa` - FASTA of most inclusive set of DODAa coding sequences.
 

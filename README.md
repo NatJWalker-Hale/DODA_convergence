@@ -6,6 +6,8 @@ Sequences, trees, and expression data from Walker-Hale, Guerrero-Rubio & Brockin
 
 `expression` has the necessary data file and script to reproduce normalised fluorescence panels Figure 2.
 
+`structures` has ChimeraX sessions containing AlphaFold2 predicted structures for focal ancestors and representative extant sequences, coloured by branch and lineage substitution type: red, convergent, blue, divergent, dark grey, unique.
+
 - **alignments_and_trees**
 
   - `Caryophyllales.tre` - the Caryophyllales species topology used for reconciliation.
@@ -43,3 +45,27 @@ Sequences, trees, and expression data from Walker-Hale, Guerrero-Rubio & Brockin
   - `expression_data.csv` - raw, OD-normalised, and background-corrected fluorescence for yeast strains expressing ancestral and extant sequences.
 
   - `plotting.R` - script necessary to reproduce panels in Figure 2.
+
+- **structures**
+
+  - `ShDODAa1_7-ShDODAa1_branch_subs.cxs` - predicted structure of ShDODAa1 showing inferred substitutions along the 7-ShDODAa1 branch.
+
+  - `9_8-9_branch_subs.cxs` - predicted structure for node 9 showing inferred substitutions along the 8-9 branch.
+
+  - `10_9-10_branch_subs.cxs` - predicted structure of node 10 showing inferred substitutions along the 9-10 branch.
+
+  - `13_5-13_branch_subs.cxs` - predicted structure of node 13 showing inferred substitutions along the 5-13 branch.
+
+  - `14_13-14_branch_subs.cxs` - predicted structure of node 14 showing inferred substitutions along the 13-14 branch.
+
+  - `15_14-15_branch_subs.cxs` - predicted structure of node 15 showing inferred substitutions along the 14-15 branch.
+
+  - `16_13-16_branch_subs.cxs` - predicted structure of node 16 showing inferred substitutions along the 13-16 branch.
+
+  - `ShDODAa1_7-ShDODAa1_lineage_subs.cxs` - predicted structure of ShDODAa1 showing inferred substitutions along the 7-ShDODAa1 branch (compared to other lineages).
+
+  - `BvDODAa1_8-10_lineage_subs.cxs` - predicted structure of BvDODAa1 showing inferred substitutions along the 8-10 lineage.
+
+  - `McDODAa1_5-15_lineage_subs.cxs` - predicted structure of McDODAa1 showing inferred substitutions along the 5-15 lineage.
+
+  - `CgDODAa1_5-16_lineage_subs.cxs` - predicted structure of CgDODAa1 showing inferred substitutions along the 5-16 lineage.
